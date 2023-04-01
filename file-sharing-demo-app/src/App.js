@@ -14,9 +14,23 @@ function App() {
           Upload
         </div>
       </div>
-      <div className='downloads'>
-        Incoming Files
-        
+
+      <div >
+        <h2 className='center'>
+          Incoming Files
+        </h2>
+
+        <div className='content'>
+          <h3>
+            Name of download
+          </h3>
+          <div className='downloadButton'>
+            <div className='down'>
+              Download
+            </div>
+          </div>
+        </div>
+          
       </div>
 
     </div>
