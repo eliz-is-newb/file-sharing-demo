@@ -14,6 +14,11 @@ function App() {
           Upload
         </div>
       </div>
+      <div className='downloads'>
+        Incoming Files
+        
+      </div>
+
     </div>
   );
 };
