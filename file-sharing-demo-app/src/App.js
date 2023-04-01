@@ -1,10 +1,19 @@
 import React from 'react';
 import './App.css';
 
-function App (){
+function App() {
   return (
-    <div>
-      <button className="btn">Hello daisyUI</button>
+    <div >
+      <div className='test'>
+        <h1>
+          File Sharing
+        </h1>
+      </div>
+      <div className='button'>
+        <div className='clicky'>
+          Upload
+        </div>
+      </div>
     </div>
   );
 };

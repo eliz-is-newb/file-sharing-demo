@@ -1,3 +1,30 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+}
+.clicky{
+    width: 200px;
+    height: 100px;
+    border-radius: 30px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 30px;
+}
+
+.clicky:hover{
+    cursor: pointer;
+}
+
+body{
+    background-color: rgb(86, 255, 255);
+}
