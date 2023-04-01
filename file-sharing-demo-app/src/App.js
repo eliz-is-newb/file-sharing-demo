@@ -15,7 +15,7 @@ function App() {
         </div>
       </div>
 
-      <div >
+      <div className='income'>
         <h2 className='center'>
           Incoming Files
         </h2>
