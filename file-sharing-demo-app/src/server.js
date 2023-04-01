@@ -6,8 +6,8 @@ app.get('/', function (req, res) {
  
     // Config your database credential
     const config = {
-        user: 'SA',
-        password: 'Your_Password',
+        user: 'kmurg',
+        password: 'WelFor',
         server: 'localhost',
         database: 'TransferFiles'
     };
