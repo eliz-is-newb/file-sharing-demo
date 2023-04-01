@@ -4,11 +4,14 @@
     align-items: center;
 }
 .button{
-    margin-top: 100px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center; 
    
+}
+.income{
+    margin-top: 50px;
 }
 .center{
     display: flex;
@@ -17,7 +20,7 @@
 }
 .clicky{
     width: 200px;
-    height: 100px;
+    height: 50px;
     border-radius: 30px;
     border: solid 1px black;
     display: flex;
@@ -31,7 +34,7 @@
     align-items: center; 
 }
 .downloads{
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -53,4 +56,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center; 
+    margin-left: 30px;
+}
+.down:hover{
+    cursor: pointer;
 }
